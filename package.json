@@ -1,0 +1,8 @@
+{
+  "name": "react-native-controls",
+  "version": "0.0.1",
+  "main": "index.js",
+  "keywords": ["react", "react-native", "controls", "components"],
+  "author": "Igor Retiznyk",
+  "license": "MIT"
+}
