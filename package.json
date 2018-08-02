@@ -1,8 +1,12 @@
 {
   "name": "react-native-controls",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/index.js",
-  "keywords": ["react", "react-native", "controls", "components"],
-  "author": "Igor Retiznyk",
+  "keywords": [
+    "react",
+    "react-native",
+    "controls",
+    "components"
+  ],
   "license": "MIT"
 }
