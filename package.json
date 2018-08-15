@@ -1,7 +1,7 @@
 {
   "name": "react-native-controls",
-  "version": "0.2.0",
-  "main": "lib/index.js",
+  "version": "0.2.1",
+  "main": "index.js",
   "keywords": [
     "react",
     "react-native",
