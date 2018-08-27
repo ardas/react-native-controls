@@ -97,6 +97,8 @@ state = {
 <Select
     items={options}
     selected={selected}
+    keyExtractor={item => item.id}
+    labelExtractor={item => item.label}
     onSelect={selected => this.setState({
         selected
     })}
@@ -129,6 +131,8 @@ state = {
 <MultiSelect
     items={options}
     selected={selected}
+    keyExtractor={item => item.id}
+    labelExtractor={item => item.label}
     onSelect={selected => this.setState({
         selected
     })}
