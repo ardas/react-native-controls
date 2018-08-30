@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "react-native/react-native": true
+  },
+  "plugins": ["react", "react-native", "prettier"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "rules": {
+    "react/display-name": 0,
+    "prettier/prettier": "error"
+  }
+}
