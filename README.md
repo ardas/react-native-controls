@@ -80,8 +80,9 @@ Select based on modal
 | **`outerContainerStyles`** | object   |          |         |                                                                                                                       |
 | **`itemStyle`**            | object   |          |         |                                                                                                                       |
 | **`textStyle`**            | object   |          |         |                                                                                                                       |
-| **`disabled`**            | boolean   |          |false         |                                                                                                                       |
-| **`autoClose`**            | boolean   |          |false         |                                                                                                                       |
+| **`ItemsContainer`**            | element   |       |    _FlatList_        |                                                                                                                       |
+| **`disabled`**            | boolean   |          |_false_         |                                                                                                                       |
+| **`autoClose`**            | boolean   |          |_false_         |   Auto close select, after selection item                                                                                                                    |
 
 ### Basic usage
 
