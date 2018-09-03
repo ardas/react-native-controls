@@ -80,6 +80,8 @@ Select based on modal
 | **`outerContainerStyles`** | object   |          |         |                                                                                                                       |
 | **`itemStyle`**            | object   |          |         |                                                                                                                       |
 | **`textStyle`**            | object   |          |         |                                                                                                                       |
+| **`disabled`**            | boolean   |          |false         |                                                                                                                       |
+| **`autoClose`**            | boolean   |          |false         |                                                                                                                       |
 
 ### Basic usage
 
