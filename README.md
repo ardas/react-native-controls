@@ -76,6 +76,7 @@ Select based on modal
 | **`renderDivider`**        | function |          |         | Render custom items divider                                                                                           |
 | **`renderSelectedMarker`** | function |          |         | Render marker for selected items                                                                                      |
 | **`clearAllText`**         | string   |          |         | Label for clear all button. If not defined button will be hidden                                                      |
+| **`clearAllTextStyle`**         | object   |          |         | Style for clear all button                                                      |
 | **`innerContainerStyles`** | object   |          |         |                                                                                                                       |
 | **`outerContainerStyles`** | object   |          |         |                                                                                                                       |
 | **`itemStyle`**            | object   |          |         |                                                                                                                       |
