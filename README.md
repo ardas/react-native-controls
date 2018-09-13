@@ -75,7 +75,7 @@ Select based on modal
 | **`renderHeader`**         | function |          |         | Render custom select header. Input params: { `onCancel`: _function_, `onSubmit`: _function_, `onSearch`: _function_ } |
 | **`renderDivider`**        | function |          |         | Render custom items divider                                                                                           |
 | **`renderSelectedMarker`** | function |          |         | Render marker for selected items                                                                                      |
-| **`clearAllText`**         | string   |          |         | Label for clear all button. If not defined button will be hidden                                                      |
+| **`renderSelectControls`**         | function   |          |         | Render custom select controls Input params: { `onClear`: _function_ }                                                  |
 | **`innerContainerStyles`** | object   |          |         |                                                                                                                       |
 | **`outerContainerStyles`** | object   |          |         |                                                                                                                       |
 | **`itemStyle`**            | object   |          |         |                                                                                                                       |
@@ -116,7 +116,7 @@ Based on [Select](#select) component
 | ------------------- | ------ | -------- | ------- | ----------------------------------------------------------------- |
 | _Select props..._   |
 | **`selected`**      | array  |          | _[]_    | Selected items                                                    |
-| **`selectAllText`** | string |          |         | Label for select all button. If not defined button will be hidden |
+| **`renderSelectControls`**         | function   |          |         | Render custom select controls Input params: { `onClear`: _function_ ,`onSelectAll`:_function_ }                                                  |
 
 ### Basic usage
 
