@@ -56,7 +56,7 @@ Set of inputs optimized for SMS codes.
 ### Basic usage
 
 ```js
-import { CodeInput } from "react-native-controls";
+import { CodeInput } from 'react-native-controls';
 
 <CodeInput size={5} onChange={({ code }) => this.setState({ code })} />;
 ```
@@ -65,24 +65,23 @@ import { CodeInput } from "react-native-controls";
 
 Select based on modal
 
-| Prop                       | Type     | Required | Default | Description                                                                                                           |
-| -------------------------- | -------- | -------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
-| **`items`**                | array    | +        |         | Select options                                                                                                        |
-| **`selected`**             | any      |          | _null_  | Selected items                                                                                                        |
-| **`onSelect`**             | function |          |         | Called on selection change with selected items as a param                                                             |
-| **`keyExtractor`**         | function |          |         | Should return uniq item identifier                                                                                    |
-| **`labelExtractor`**       | function |          |         | Should return item label to show                                                                                      |
-| **`renderHeader`**         | function |          |         | Render custom select header. Input params: { `onCancel`: _function_, `onSubmit`: _function_, `onSearch`: _function_ } |
-| **`renderDivider`**        | function |          |         | Render custom items divider                                                                                           |
-| **`renderSelectedMarker`** | function |          |         | Render marker for selected items                                                                                      |
-| **`renderSelectControls`**         | function   |          |         | Render custom select controls Input params: { `onClear`: _function_ }                                                  |
-| **`innerContainerStyles`** | object   |          |         |                                                                                                                       |
-| **`outerContainerStyles`** | object   |          |         |                                                                                                                       |
-| **`itemStyle`**            | object   |          |         |                                                                                                                       |
-| **`textStyle`**            | object   |          |         |                                                                                                                       |
-| **`ItemsContainer`**            | element   |       |    _FlatList_        |                                                                                                                       |
-| **`disabled`**            | boolean   |          |_false_         |                                                                                                                       |
-| **`autoClose`**            | boolean   |          |_false_         |   Auto close select, after selection item                                                                                                                    |
+| Prop                       | Type     | Required | Default    | Description                                                                                                                                  |
+| -------------------------- | -------- | -------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`items`**                | array    | +        |            | Select options                                                                                                                               |
+| **`selected`**             | any      |          | _null_     | Selected items                                                                                                                               |
+| **`onSelect`**             | function |          |            | Called on selection change with selected items as a param                                                                                    |
+| **`keyExtractor`**         | function |          |            | Should return uniq item identifier                                                                                                           |
+| **`labelExtractor`**       | function |          |            | Should return item label to show                                                                                                             |
+| **`renderHeader`**         | function |          |            | Render custom select header. Input params: { `onCancel`: _function_, `onSubmit`: _function_, `onSearch`: _function_, `onClear`: _function_ } |
+| **`renderDivider`**        | function |          |            | Render custom items divider                                                                                                                  |
+| **`renderSelectedMarker`** | function |          |            | Render marker for selected items                                                                                                             |
+| **`innerContainerStyles`** | object   |          |            |                                                                                                                                              |
+| **`outerContainerStyles`** | object   |          |            |                                                                                                                                              |
+| **`itemStyle`**            | object   |          |            |                                                                                                                                              |
+| **`textStyle`**            | object   |          |            |                                                                                                                                              |
+| **`ItemsContainer`**       | element  |          | _FlatList_ |                                                                                                                                              |
+| **`disabled`**             | boolean  |          | _false_    |                                                                                                                                              |
+| **`autoClose`**            | boolean  |          | _false_    | Auto close select, after selection item                                                                                                      |
 
 ### Basic usage
 
@@ -112,16 +111,16 @@ state = {
 
 Based on [Select](#select) component
 
-| Prop                | Type   | Required | Default | Description                                                       |
-| ------------------- | ------ | -------- | ------- | ----------------------------------------------------------------- |
-| _Select props..._   |
-| **`selected`**      | array  |          | _[]_    | Selected items                                                    |
-| **`renderSelectControls`**         | function   |          |         | Render custom select controls Input params: { `onClear`: _function_ ,`onSelectAll`:_function_ }                                                  |
+| Prop               | Type     | Required | Default | Description                                                                                                                                                            |
+| ------------------ | -------- | -------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _Select props..._  |
+| **`selected`**     | array    |          | _[]_    | Selected items                                                                                                                                                         |
+| **`renderHeader`** | function |          |         | Render custom select header. Input params: { `onCancel`: _function_, `onSubmit`: _function_, `onSearch`: _function_, `onClear`: _function_, `onSelectAll`:_function_ } |
 
 ### Basic usage
 
 ```js
-import { Select } from "react-native-controls";
+import { MultiSelect } from "react-native-controls";
 
 state = {
     options: [
