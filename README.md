@@ -11,22 +11,22 @@
 
 Based on react-native FlatList component, is called to simplify lazy load implementation
 
-| Prop                      | Type     | Required | Default | Description                                                                      |
-| ------------------------- | -------- | -------- | ------- | -------------------------------------------------------------------------------- |
-| **`multi`**                | bool    |          |   _false_ | If true Component is MultiSelect, else Select                                                                   |
+| Prop        | Type | Required | Default | Description                                   |
+| ----------- | ---- | -------- | ------- | --------------------------------------------- |
+| **`multi`** | bool |          | _false_ | If true Component is MultiSelect, else Select |
 
-| **`data`**                | array    | +        |         | Data to show                                                                     |
-| **`loadMoreData`**        | function |          |         | Called when additional data should be load. Input params: { `offset`: _number_ } |
-| **`refreshData`**         | function |          |         | Called when data should be re-load                                               |
-| **`indicatorColor`**      | string   |          | _blue_  |                                                                                  |
-| **`loadDataOnInit`**      | bool     |          | _false_ | Should call `refreshData` on mount                                               |
-| **`propagateDataErrors`** | bool     |          | _false_ | Should encapsulate error handling in directly in component                       |
-| **`renderError`**         | function |          |         | Custom error component                                                           |
-| **`renderLoading`**       | function |          |         | Custom loading component                                                         |
-| **`renderEmpty`**         | function |          |         | Custom empty list component                                                      |
-| **`isLoading`**           | bool     |          | _false_ | Show loading indicator                                                           |
-| **`isRefreshing`**        | bool     |          | _false_ | Show refreshing indicator                                                        |
-| **`dataError`**           | any      |          | _null_  |                                                                                  |
+| **`data`** | array | + | | Data to show |
+| **`loadMoreData`** | function | | | Called when additional data should be load. Input params: { `offset`: _number_ } |
+| **`refreshData`** | function | | | Called when data should be re-load |
+| **`indicatorColor`** | string | | _blue_ | |
+| **`loadDataOnInit`** | bool | | _false_ | Should call `refreshData` on mount |
+| **`propagateDataErrors`** | bool | | _false_ | Should encapsulate error handling in directly in component |
+| **`renderError`** | function | | | Custom error component |
+| **`renderLoading`** | function | | | Custom loading component |
+| **`renderEmpty`** | function | | | Custom empty list component |
+| **`isLoading`** | bool | | _false_ | Show loading indicator |
+| **`isRefreshing`** | bool | | _false_ | Show refreshing indicator |
+| **`dataError`** | any | | _null_ | |
 
 ### Basic usage
 
@@ -122,7 +122,7 @@ Based on [Select](#select) component
 ### Basic usage
 
 ```js
-import { MultiSelect } from "react-native-controls";
+import { Select } from "react-native-controls";
 
 state = {
     options: [
