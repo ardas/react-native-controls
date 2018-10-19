@@ -133,7 +133,8 @@ state = {
     ]
 };
 
-<MultiSelect
+<Select
+    multi={true}
     items={options}
     selected={selected}
     keyExtractor={item => item.id}
