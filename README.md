@@ -13,7 +13,6 @@ Based on react-native FlatList component, is called to simplify lazy load implem
 
 | Prop                      | Type     | Required | Default | Description                                                                      |
 | ------------------------- | -------- | -------- | ------- | -------------------------------------------------------------------------------- |
-| **`multi`**               | bool     |          | _false_ | If true Component is MultiSelect, else Select                                    |
 | **`data`**                | array    | +        |         | Data to show                                                                     |
 | **`loadMoreData`**        | function |          |         | Called when additional data should be load. Input params: { `offset`: _number_ } |
 | **`refreshData`**         | function |          |         | Called when data should be re-load                                               |
@@ -68,6 +67,8 @@ Select based on modal
 
 | Prop                       | Type     | Required | Default    | Description                                                                                                                                  |
 | -------------------------- | -------- | -------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`multi`**                | bool      |           | _false_     |   If true Component is MultiSelect, else Select                                    |
+
 | **`items`**                | array    | +        |            | Select options                                                                                                                               |
 | **`selected`**             | any      |          | _null_     | Selected items                                                                                                                               |
 | **`onSelect`**             | function |          |            | Called on selection change with selected items as a param                                                                                    |
