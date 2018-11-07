@@ -49,11 +49,11 @@ const data = [
 
 Set of inputs optimized for SMS codes.
 
-| Prop           | Type     | Required | Default | Description                                                                              |
-| -------------- | -------- | -------- | ------- | ---------------------------------------------------------------------------------------- |
-| **`size`**     | number   | +        | `4`     | Count of inputs                                                                          |
-| **`onChange`** | function |          |         | Called on value change. Structure: { `valid`: _bool_, `code`: _string_, `raw`: _array_ } |
-| **`renderSeparator`** | function |          |         | Render custom separator items. Input params: { `index`: _number_ } |
+| Prop                  | Type     | Required | Default | Description                                                                              |
+| --------------------- | -------- | -------- | ------- | ---------------------------------------------------------------------------------------- |
+| **`size`**            | number   | +        | `4`     | Count of inputs                                                                          |
+| **`onChange`**        | function |          |         | Called on value change. Structure: { `valid`: _bool_, `code`: _string_, `raw`: _array_ } |
+| **`renderSeparator`** | function |          |         | Render custom separator items. Input params: { `index`: _number_ }                       |
 
 ### Basic usage
 
