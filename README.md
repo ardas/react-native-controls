@@ -52,6 +52,7 @@ Set of inputs optimized for SMS codes.
 | Prop                  | Type     | Required | Default | Description                                                                              |
 | --------------------- | -------- | -------- | ------- | ---------------------------------------------------------------------------------------- |
 | **`size`**            | number   | +        | `4`     | Count of inputs                                                                          |
+| **`initialValue`**    | string   |          |         | Initial value for input (`code`: _string_)                                               |
 | **`onChange`**        | function |          |         | Called on value change. Structure: { `valid`: _bool_, `code`: _string_, `raw`: _array_ } |
 | **`renderSeparator`** | function |          |         | Render custom separator items. Input params: { `index`: _number_ }                       |
 
