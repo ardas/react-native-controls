@@ -73,6 +73,7 @@ Select based on modal
 | **`items`**                | array    | +        |            | Select options                                                                                                                               |
 | **`selected`**             | any      |          | _null_     | Selected items                                                                                                                               |
 | **`onSelect`**             | function |          |            | Called on selection change with selected items as a param                                                                                    |
+| **`onItemPress`**          | function |          |            | Called on item component press event with item as a param                                                                                    |
 | **`keyExtractor`**         | function |          |            | Should return uniq item identifier                                                                                                           |
 | **`labelExtractor`**       | function |          |            | Should return item label to show                                                                                                             |
 | **`renderHeader`**         | function |          |            | Render custom select header. Input params: { `onCancel`: _function_, `onSubmit`: _function_, `onSearch`: _function_, `onClear`: _function_ } |
